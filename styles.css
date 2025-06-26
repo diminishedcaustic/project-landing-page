@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
 }
 
 body {
@@ -43,8 +44,9 @@ body {
 }
 
 .img {
-    background-color: white;
     width: 500px;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 .introduction-left {
@@ -76,6 +78,11 @@ body {
     align-items: center;
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -98,6 +105,7 @@ button {
     font-weight: bold;
     font-size: 15px;
     border-style: none;
+    border: 2px solid white;
 }
 
 .main-content {
@@ -127,7 +135,7 @@ button {
 }
 
 .section-two-container {
-    font-size: 28px;
+    font-size: 30px;
     text-align: left;
     width: 750px;
     display: flex;
@@ -135,10 +143,12 @@ button {
     align-self: flex-end;
     align-items: flex-end;
     margin: 128px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .section-two-container > * {
-    margin: 0;
+    margin: 5px;
 }
 
 .author {
@@ -149,6 +159,7 @@ button {
     display: flex;
     flex-wrap: wrap; 
     gap: 64px;
+    justify-content: center;
 }
 
 .info-card {
@@ -159,7 +170,8 @@ button {
 
 .info-img {
     height: 150px;
-    background-color: #3882f6;
+    background-color: white;
+    border: 2px solid #3882f6;
     border-radius: 10px;
 }
 
