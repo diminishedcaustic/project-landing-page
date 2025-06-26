@@ -46,7 +46,9 @@ body {
 .img {
     width: 500px;
     border-radius: 10px;
-    border: 2px solid white;
+    box-shadow: 1px 2px 16px 4px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 1px 2px 16px 4px rgba(0,0,0,0.62);
+    -moz-box-shadow: 1px 2px 16px 4px rgba(0,0,0,0.62);
 }
 
 .introduction-left {
@@ -60,7 +62,7 @@ body {
 .introduction-section {
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 32px;
 }
 
 .logo {
